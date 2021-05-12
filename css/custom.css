@@ -1,0 +1,6 @@
+.locCSS.disableLogo #hd h2 img {display: none;}
+.locCSS.disableSign .sign {display: none;}
+.locCSS.disableAvatar #postlist .pls a img, .locCSS.disableAvatar .avt img  {display: none;}
+.locCSS.disableCustombg #postlist table  {background-image: none;}
+.locCSS.compimg .pcb img  {max-width: 48px!important;max-height: 48px!important;}
+.locCSS.frigid {opacity: 0.7;}

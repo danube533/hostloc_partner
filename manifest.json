@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+  
+    "name": "LOC伴侣",
+    "description": "LOC伴侣",
+    "version": "1.0",
+  
+    "permissions": [
+      "declarativeContent",
+      "storage"
+    ],
+    "background": {
+      "scripts": ["js/background.js"]
+    },
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "LOC伴侣",
+		  "default_popup": "options.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://hostloc.com/*"],
+        "js": ["js/loc.js"],
+        "css": ["css/custom.css"],
+        "run_at": "document_start"
+      }
+    ],
+    "homepage_url": "https://www.baidu.com"
+  }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        * {margin: 0;padding: 0;border: 0;}
+        body {font-size: 13px;line-height: 1.8;color: #333;}
+        .wrap {width: 130px;padding: 16px;}
+        b {font-weight: normal;}
+        .title {height:28px;line-height:28px;border-bottom: 1px solid #eee;margin-bottom: 8px;font-weight: bold;}
+        .list .item {padding: 4px 0;vertical-align: top;}
+        .list .item b {margin-left: 6px;}
+        input {cursor: pointer;}
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="title">LOC伴侣设置</div>
+        <div class="list" id="form">
+            <div class="item"><input id="logo" type="checkbox"><b>屏蔽LOGO</b></div>
+            <div class="item"><input id="sign" type="checkbox"><b>屏蔽签名</b></div>
+            <div class="item"><input id="avatar" type="checkbox"><b>屏蔽头像</b></div>
+            <div class="item"><input id="bg" type="checkbox"><b>屏蔽自定义背景</b></div>
+            <div class="item"><input id="compimg" type="checkbox"><b>压缩内图</b></div>
+            <div class="item"><input id="frigid" type="checkbox"><b>性冷淡色</b></div>
+        </div>
+    </div>
+    <script src="js/options.js"></script>
+</body>
+</html>
